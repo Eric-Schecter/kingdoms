@@ -734,17 +734,12 @@ func perform_attack(a: int,b: int, ranged: bool, retaliation: bool = false, foll
 		ability_feedback("fire",b,a)
 	if ranged and units[a].sprite==6:
 		effects.append({"kind":"cloud","from":to,"to":to,"t":0.0,"life":0.85,"color":Color("9d78bb")})
-		var affected: Array[int]=[b]
-		for n in perimeter(b):
-			var splash=occupant(n)
-			if splash>=0 and splash!=a and not affected.has(splash) and units[splash].living:
-				affected.append(splash)
-				var splash_damage=damage
-				var splash_before: int=units[splash].total
-				units[splash].total=maxi(0,units[splash].total-splash_damage)
-				receive_hit(splash,direction)
-				hit_feedback(splash,splash_before,splash_damage)
-				log_line("Death cloud engulfs %s for %d damage." % [units[splash].name,splash_damage])
+		for splash in secondary_attack_targets(a,b,true):
+			var splash_before: int=units[splash].total
+			units[splash].total=maxi(0,units[splash].total-damage)
+			receive_hit(splash,direction)
+			hit_feedback(splash,splash_before,damage)
+			log_line("Death cloud engulfs %s for %d damage." % [units[splash].name,damage])
 	apply_creature_effects(a,b,ranged,damage)
 	hit_feedback(b,before_total,damage)
 	log_line("%s %s %s: %d damage · %d perish." % [units[a].name,"retaliate against" if retaliation else ("shoot" if ranged else "strike"),units[b].name,damage,before-amount(units[b])])
@@ -949,14 +944,15 @@ func play_tone(frequency: float,duration: float):
 
 func _process(delta):
 	clock+=delta
+	var attack_targets=attack_preview_targets()
 	for i in range(units.size()):
 		var u=units[i]
 		u.flash=maxf(0,u.flash-delta*animation_speed)
 		u.anim_time+=delta*animation_speed
 		var actor=actors[i]
 		if actor.material:
-			actor.material.set_shader_parameter("highlighted",(i==inspected or i==current) and not choosing_faction and not opening_battle and not ended and detail_id<0 and u.total>0)
-			actor.material.set_shader_parameter("highlight_color",Color("ffe28a") if i==current else (Color("8ad9dc") if u.side==player_side else Color("f2ae82")))
+			actor.material.set_shader_parameter("highlighted",(i==inspected or i==current or i in attack_targets) and not choosing_faction and not opening_battle and not ended and detail_id<0 and u.total>0)
+			actor.material.set_shader_parameter("highlight_color",(Color("ffbb55") if u.side==units[current].side else Color("ff665c")) if i in attack_targets else (Color("ffe28a") if i==current else (Color("8ad9dc") if u.side==player_side else Color("f2ae82"))))
 		actor.visible=not choosing_faction and sprites.size()==Catalog.DATA.size()
 		actor.position=u.visual+u.recoil+Vector2(0,8-u.lift)
 		# Large creatures fill their two-hex footprint without stretching the painting.
@@ -1852,6 +1848,61 @@ func draw_interaction(canvas: Node2D):
 			if attacker.anim=="shoot": action_icon=ranged_cursor(units.find(attacker),attacker.get("attack_target",0))
 			canvas.draw_texture_rect(combat_icons[action_icon],Rect2(attacker.visual-Vector2(14,150),Vector2(28,28)),false)
 
+func secondary_attack_targets(a: int,b: int,ranged: bool,head: Vector2i=Vector2i(-99,-99),facing: int=0) -> Array[int]:
+	# Shared by previews and damage resolution, including friendly fire.
+	if ranged:
+		var splash: Array[int]=[]
+		if units[a].sprite==6:
+			for cell in perimeter(b):
+				var id=occupant(cell)
+				if id>=0 and id not in [a,b] and units[id].living and not splash.has(id):
+					splash.append(id)
+		return splash
+	if units[a].sprite not in [20,30]: return []
+	var victims: Array[int]=[]
+	if units[a].sprite==30:
+		for candidate in range(units.size()):
+			if candidate!=b and candidate!=a and units[candidate].total>0 and units[candidate].side!=units[a].side and touches(a,candidate,head,facing) and stack_distance(candidate,b)==1: victims.append(candidate)
+	else:
+		# Continue one axial hex beyond the contact hex, not a visual cone.
+		var contact=Vector2i(-1,-1)
+		var origin=Vector2i(-1,-1)
+		var distance=INF
+		for start in footprint(a,head,facing):
+			for hit in footprint(b):
+				if hex_distance(start,hit)!=1: continue
+				var score=cell_center(start).distance_squared_to(unit_center(a,head,facing))+cell_center(hit).distance_squared_to(unit_center(b))
+				if score<distance: distance=score; origin=start; contact=hit
+		if contact.x>=0:
+			var aq=Vector2i(origin.x-(origin.y-(origin.y&1))/2,origin.y)
+			var bq=Vector2i(contact.x-(contact.y-(contact.y&1))/2,contact.y)
+			var next=bq+(bq-aq)
+			var cell=Vector2i(next.x+(next.y-(next.y&1))/2,next.y)
+			var victim=occupant(cell)
+			if victim>=0 and victim not in [a,b]: victims.append(victim)
+	if units[a].sprite==30 and victims.size()>2: victims.resize(2)
+	return victims
+
+func attack_preview_targets() -> Array[int]:
+	if choosing_faction or opening_battle or ended or detail_id>=0 or settings_open or current<0: return []
+	var target=-1
+	var plan={}
+	var ranged=can_shoot(current)
+	if ai_preview:
+		target=ai_target
+		plan=ai_plan
+	else:
+		if busy or auto_on or units[current].side!=player_side: return []
+		var point=get_global_mouse_position()
+		if not Rect2(8,108,1424,646).has_point(point): return []
+		target=pick_action_target(point)
+		if target<0 or units[target].side==units[current].side: return []
+		if not ranged: plan=approach(current,target,{},true)
+	if target<0 or (not ranged and plan.is_empty()): return []
+	var targets: Array[int]=[target]
+	targets.append_array(secondary_attack_targets(current,target,ranged,plan.get("head",units[current].pos),plan.get("facing",units[current].facing)))
+	return targets
+
 func apply_creature_effects(a: int,b: int,ranged: bool,damage: int):
 	if not ranged and units[b].total>0:
 		if units[a].sprite==7 and not units[b].undead and units[b].sprite not in [20,33] and rng.randf()<0.2:
@@ -1864,28 +1915,7 @@ func apply_creature_effects(a: int,b: int,ranged: bool,damage: int):
 			ability_feedback("blind",a,b)
 	if ranged or units[a].sprite not in [20,30]: return
 	ability_feedback("breath" if units[a].sprite==20 else "triple",a,b)
-	var victims=[]
-	if units[a].sprite==30:
-		for candidate in range(units.size()):
-			if candidate!=b and candidate!=a and units[candidate].total>0 and units[candidate].side!=units[a].side and touches(a,candidate,units[a].pos) and stack_distance(candidate,b)==1: victims.append(candidate)
-	else:
-		# Continue one axial hex beyond the contact hex, not a visual cone.
-		var contact=Vector2i(-1,-1)
-		var origin=Vector2i(-1,-1)
-		var distance=INF
-		for start in footprint(a):
-			for hit in footprint(b):
-				if hex_distance(start,hit)!=1: continue
-				var score=cell_center(start).distance_squared_to(units[a].visual)+cell_center(hit).distance_squared_to(units[b].visual)
-				if score<distance: distance=score; origin=start; contact=hit
-		if contact.x>=0:
-			var aq=Vector2i(origin.x-(origin.y-(origin.y&1))/2,origin.y)
-			var bq=Vector2i(contact.x-(contact.y-(contact.y&1))/2,contact.y)
-			var next=bq+(bq-aq)
-			var cell=Vector2i(next.x+(next.y-(next.y&1))/2,next.y)
-			var victim=occupant(cell)
-			if victim>=0 and victim not in [a,b]: victims.append(victim)
-	if units[a].sprite==30 and victims.size()>2: victims.resize(2)
+	var victims=secondary_attack_targets(a,b,ranged)
 	for victim in victims:
 		effects.append({"kind":"ability","skill":"breath" if units[a].sprite==20 else "triple","from":units[b].visual-Vector2(0,48),"to":units[victim].visual-Vector2(0,48),"t":0.0,"life":0.85})
 		var previous: int=units[victim].total

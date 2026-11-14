@@ -6,7 +6,7 @@ Storybook turn-based battles inspired by Heroes III. Five factions, 35 creatures
 
 **[Play in your browser](https://eric-schecter.github.io/kingdoms/)**
 
-Choose a faction and battlefield. Click to move or attack; right-click a creature for details. Scroll the initiative bar to see upcoming turns.
+Choose a faction and battlefield. Click to move or attack; right-click a creature for details. Scroll the initiative bar to see upcoming turns. Attack previews outline affected enemies in red and friendly-fire victims in amber.
 
 Open `project.godot` with **Godot 4.7.2** to play locally. Run `tools/export_web.sh` to build the web edition.
 
