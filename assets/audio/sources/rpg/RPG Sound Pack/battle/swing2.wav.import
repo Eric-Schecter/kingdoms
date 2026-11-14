@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vn3w2op7bdva"
+path="res://.godot/imported/swing2.wav-ae825f569f0c695e63fa9d3d968d1e21.sample"
+
+[deps]
+
+source_file="res://assets/audio/sources/rpg/RPG Sound Pack/battle/swing2.wav"
+dest_files=["res://.godot/imported/swing2.wav-ae825f569f0c695e63fa9d3d968d1e21.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

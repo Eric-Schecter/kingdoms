@@ -1,0 +1,19 @@
+{
+  "tool": "builtin imagegen",
+  "base": "Create landscape fantasy tactical battlefield background, 1536x1024. Match the reference's hand-painted storybook 2D ink/gouache aesthetic and EXACT spatial layout. Entire central rectangle x=8%..92%, y=18%..98% must be flat empty walkable ground viewed obliquely overhead. ALL large buildings, trees, cliffs restricted to top 15% or outermost 6% of side edges. Small horizon band, broad playable area, consistent lighting, muted central texture. No units, text, grid, UI, borders, central obstacles or roads. Theme: ",
+  "specs": [
+    [
+      "snow",
+      "Snowy alpine ruins, pale ice-blue packed snow field, distant blue-domed wizard citadel and snowy mountains at extreme top, frost pine and pale crystals at extreme side borders. Snow field subtle texture, not pure white."
+    ],
+    [
+      "graveyard",
+      "Dusk necropolis, broad dry muted desaturated lavender-brown earth clearing, distant gothic mausoleum and bare tree silhouettes ONLY in top 14 percent, foggy violet sky, gravestones restricted far side borders. Battlefield surface visibly flat and clear, subdued light enough to read creatures."
+    ],
+    [
+      "volcano",
+      "Volcanic wasteland, broad warm grey-brown volcanic ash plateau, distant horned black citadel and glowing volcano ONLY in top 14 percent, lava rivers only along extreme outside left and right borders, glowing orange horizon. Central ground is solid safe unbroken rock and ash, no lava in playable area."
+    ]
+  ],
+  "reference": "assets/storybook/battlefield-valley.png"
+}

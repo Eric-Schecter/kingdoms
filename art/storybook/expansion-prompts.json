@@ -1,0 +1,36 @@
+{
+  "tool": "builtin imagegen",
+  "reference": "assets/storybook/griffin-sheet.png",
+  "units": [
+    {
+      "id": 8,
+      "name": "monk",
+      "prompt": "Create a 3x3 animation sprite sheet, same flat storybook ink watercolor style as reference: warm dark brown outlines, muted blocks, two shadow tones, paper grain, no 3D. cute human monk in cream robe with blue gold mantle, short brown hair, holding a golden sun staff. Nine full-body poses in EXACT equal cells with generous gutters and all appendages within cell; fixed scale and ground baseline. All face RIGHT. Row1 idle, walk stride one, passing step. Row2 opposite stride, passing step two, raising staff with gold light. Row3 shooting a small golden holy orb, recovery, recoiling hit. For winged creatures the four movement poses are wings raised, diagonal up, horizontal, down in flight; ghost moves with four flowing wispy silhouettes; mounted knight keeps rider mounted in all poses. Transparent alpha background, no checkerboard, labels, numbers, text, floor or cast shadows. Preserve identical costume and anatomy in every frame. Square canvas."
+    },
+    {
+      "id": 9,
+      "name": "knight",
+      "prompt": "Create a 3x3 animation sprite sheet, same flat storybook ink watercolor style as reference: warm dark brown outlines, muted blocks, two shadow tones, paper grain, no 3D. cute Castle knight in steel armor, blue plume and gold-trimmed blue cape, riding a brown living horse with blue barding, lance and blue lion shield. Nine full-body poses in EXACT equal cells with generous gutters and all appendages within cell; fixed scale and ground baseline. All face RIGHT. Row1 idle, walk stride one, passing step. Row2 opposite stride, passing step two, drawing lance back while mounted. Row3 thrusting lance forward while mounted, recovery, recoiling hit. For winged creatures the four movement poses are wings raised, diagonal up, horizontal, down in flight; ghost moves with four flowing wispy silhouettes; mounted knight keeps rider mounted in all poses. Transparent alpha background, no checkerboard, labels, numbers, text, floor or cast shadows. Preserve identical costume and anatomy in every frame. Square canvas."
+    },
+    {
+      "id": 10,
+      "name": "angel",
+      "prompt": "Create a 3x3 animation sprite sheet, same flat storybook ink watercolor style as reference: warm dark brown outlines, muted blocks, two shadow tones, paper grain, no 3D. cute winged angel warrior, ivory robe and gold armor, blue sash, golden sword, big cream wings, no halo disk base. Nine full-body poses in EXACT equal cells with generous gutters and all appendages within cell; fixed scale and ground baseline. All face RIGHT. Row1 idle, walk stride one, passing step. Row2 opposite stride, passing step two, raising sword, wings spread. Row3 slashing golden sword forward, recovery, recoiling hit. For winged creatures the four movement poses are wings raised, diagonal up, horizontal, down in flight; ghost moves with four flowing wispy silhouettes; mounted knight keeps rider mounted in all poses. Transparent alpha background, no checkerboard, labels, numbers, text, floor or cast shadows. Preserve identical costume and anatomy in every frame. Square canvas."
+    },
+    {
+      "id": 11,
+      "name": "ghost",
+      "prompt": "Create a 3x3 animation sprite sheet, same flat storybook ink watercolor style as reference: warm dark brown outlines, muted blocks, two shadow tones, paper grain, no 3D. cute translucent pale lavender ghost in ragged hooded shroud, skull-like face with large teal glowing eyes, floating wispy tail instead of legs. Nine full-body poses in EXACT equal cells with generous gutters and all appendages within cell; fixed scale and ground baseline. All face RIGHT. Row1 idle, walk stride one, passing step. Row2 opposite stride, passing step two, drawing spectral hands back. Row3 sweeping glowing spectral claws forward, recovery, recoiling hit. For winged creatures the four movement poses are wings raised, diagonal up, horizontal, down in flight; ghost moves with four flowing wispy silhouettes; mounted knight keeps rider mounted in all poses. Transparent alpha background, no checkerboard, labels, numbers, text, floor or cast shadows. Preserve identical costume and anatomy in every frame. Square canvas."
+    },
+    {
+      "id": 12,
+      "name": "vampire",
+      "prompt": "Create a 3x3 animation sprite sheet, same flat storybook ink watercolor style as reference: warm dark brown outlines, muted blocks, two shadow tones, paper grain, no 3D. cute aristocratic vampire with pale face, slick black hair, pointed ears, purple high-collar cape and burgundy vest, small visible fangs. Nine full-body poses in EXACT equal cells with generous gutters and all appendages within cell; fixed scale and ground baseline. All face RIGHT. Row1 idle, walk stride one, passing step. Row2 opposite stride, passing step two, pulling clawed hands back and opening cape like bat wings. Row3 lunging with clawed hands forward, recovery, recoiling hit. For winged creatures the four movement poses are wings raised, diagonal up, horizontal, down in flight; ghost moves with four flowing wispy silhouettes; mounted knight keeps rider mounted in all poses. Transparent alpha background, no checkerboard, labels, numbers, text, floor or cast shadows. Preserve identical costume and anatomy in every frame. Square canvas."
+    },
+    {
+      "id": 13,
+      "name": "bone-dragon",
+      "prompt": "Create a 3x3 animation sprite sheet, same flat storybook ink watercolor style as reference: warm dark brown outlines, muted blocks, two shadow tones, paper grain, no 3D. cute ivory skeletal dragon, large expressive skull, purple glowing eyes, jointed bone wings with faint lavender membranes, ribcage, four legs and long bone tail, full body. Nine full-body poses in EXACT equal cells with generous gutters and all appendages within cell; fixed scale and ground baseline. All face RIGHT. Row1 idle, walk stride one, passing step. Row2 opposite stride, passing step two, drawing skull back, jaws opening, wings spread. Row3 lunging forward with biting jaws, recovery, recoiling hit. For winged creatures the four movement poses are wings raised, diagonal up, horizontal, down in flight; ghost moves with four flowing wispy silhouettes; mounted knight keeps rider mounted in all poses. Transparent alpha background, no checkerboard, labels, numbers, text, floor or cast shadows. Preserve identical costume and anatomy in every frame. Square canvas."
+    }
+  ]
+}

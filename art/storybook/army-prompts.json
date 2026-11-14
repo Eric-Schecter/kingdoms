@@ -1,0 +1,41 @@
+{
+  "tool": "built-in imagegen",
+  "reference": "assets/storybook/griffin-sheet.png",
+  "prompts": [
+    {
+      "id": 0,
+      "name": "pikeman",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute blue-and-gold Castle pikeman, steel closed helmet with blue plume, blue tunic, brown boots, long spear. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; spear windup. Row3: forward spear thrust; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    },
+    {
+      "id": 1,
+      "name": "marksman",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute blue hooded human crossbowman, gold trim, brown boots, wooden crossbow. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; raising and aiming crossbow. Row3: firing crossbow toward right; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    },
+    {
+      "id": 2,
+      "name": "crusader",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute stocky bearded human crusader, steel helmet, blue tabard, blue shield with gold lion, broad sword. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; raising sword overhead. Row3: sword slash forward; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    },
+    {
+      "id": 4,
+      "name": "skeleton",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute ivory skeleton warrior with oversized skull, purple cloth belt, rusty short sword and round wooden shield. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; sword drawn back. Row3: sword strike forward; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    },
+    {
+      "id": 5,
+      "name": "zombie",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute comical green zombie, messy brown hair, torn purple shirt and brown shorts, barefoot, outstretched arms. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; arms pulled back. Row3: lunging claw swipe; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    },
+    {
+      "id": 6,
+      "name": "lich",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute skull-faced lich wizard in purple gold-trimmed hooded robe, bone staff topped with violet flame. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; lifting staff and gathering small violet spell flame. Row3: casting spell forward with staff; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    },
+    {
+      "id": 7,
+      "name": "dread-knight",
+      "prompt": "Create one production animation sprite sheet. Match reference's flat storybook ink and watercolor style: dark warm brown outlines, muted color blocks, only two shadow tones, subtle paper texture. NO 3D or clay. cute armored death knight riding an ivory skeletal horse, purple plume and cape, dark steel armor with gold trim, skull shield, long lance; horse AND rider full body always. EXACTLY 3 columns by 3 rows, nine separate poses in equal square cells, transparent background. All characters face RIGHT, identical costume anatomy proportions and scale across frames. Each cell fixed body center and ground baseline at 88% height, feet fully visible, generous margin, weapons fully inside cell; no overlap into neighboring cells. Row1: idle standing; walking left foot forward; walking passing pose. Row2: walking right foot forward; walking second passing pose; rider drawing lance back while mounted. Row3: mounted lance thrust forward; recovery after attack; recoiling from hit. For mounted character walking means horse gait and rider stays mounted. No labels, no numbers, no grid lines, no base, no ground shadow, no scenery. Square canvas."
+    }
+  ]
+}

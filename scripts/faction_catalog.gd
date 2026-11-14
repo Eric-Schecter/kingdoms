@@ -1,0 +1,15 @@
+extends RefCounted
+# Prototype rosters inspired by Heroes III; original painted art and tuned stack counts.
+const NAMES=["CASTLE", "NECROPOLIS", "RAMPART", "TOWER", "INFERNO"]
+const TOWNS=["castle", "necropolis", "rampart", "tower", "inferno"]
+const COLORS=["426b91", "815783", "527a44", "477f9d", "a14e3b"]
+const ROSTERS=[[0, 1, 2, 3, 8, 9, 10], [4, 5, 6, 7, 11, 12, 13], [14, 15, 16, 17, 18, 19, 20], [21, 22, 23, 24, 25, 26, 27], [28, 29, 30, 31, 32, 33, 34]]
+const DATA=[["Pikemen", 12, 5, 7, 2, 3, 4, 0, 0, 50], ["Marksmen", 10, 6, 3, 2, 3, 5, 12, 1, 28], ["Crusaders", 35, 10, 12, 6, 9, 5, 0, 2, 16], ["Royal Griffins", 30, 8, 8, 4, 6, 7, 0, 3, 18], ["Skeletons", 6, 5, 3, 1, 2, 5, 0, 4, 65], ["Zombies", 24, 5, 8, 2, 3, 3, 0, 5, 30], ["Power Liches", 30, 11, 7, 8, 10, 5, 8, 6, 6], ["Dread Knights", 70, 13, 12, 12, 16, 7, 0, 7, 4], ["Monks", 30, 10, 7, 8, 12, 5, 12, 8, 6], ["Cavaliers", 80, 14, 14, 14, 20, 7, 0, 9, 5], ["Angels", 160, 18, 18, 30, 40, 9, 0, 10, 2], ["Wights", 20, 7, 7, 3, 5, 7, 0, 11, 12], ["Vampire Lords", 40, 10, 9, 5, 8, 8, 0, 12, 10], ["Bone Dragons", 150, 17, 15, 25, 35, 8, 0, 13, 2], ["Centaurs", 12, 5, 3, 2, 3, 6, 0, 14, 45], ["Dwarves", 24, 6, 9, 2, 4, 3, 0, 15, 26], ["Grand Elves", 15, 9, 5, 3, 5, 6, 16, 16, 20], ["Pegasi", 30, 9, 8, 5, 8, 8, 0, 17, 12], ["Dendroids", 65, 9, 12, 10, 14, 3, 0, 18, 8], ["Unicorns", 90, 15, 14, 18, 22, 7, 0, 19, 4], ["Green Dragons", 180, 18, 18, 30, 40, 8, 0, 20, 2], ["Master Gremlins", 6, 4, 4, 1, 2, 4, 12, 21, 65], ["Gargoyles", 20, 6, 7, 2, 3, 7, 0, 22, 30], ["Iron Golems", 35, 7, 10, 4, 5, 4, 0, 23, 20], ["Mages", 30, 11, 8, 7, 9, 5, 12, 24, 10], ["Genies", 40, 12, 12, 12, 16, 8, 0, 25, 8], ["Nagas", 110, 16, 13, 20, 25, 5, 0, 26, 4], ["Titans", 180, 20, 18, 35, 45, 7, 12, 27, 2], ["Imps", 6, 4, 4, 1, 2, 5, 0, 28, 70], ["Gogs", 16, 6, 5, 2, 4, 4, 12, 29, 28], ["Cerberi", 25, 10, 7, 3, 6, 7, 0, 30, 20], ["Demons", 40, 10, 10, 7, 9, 5, 0, 31, 13], ["Pit Fiends", 50, 13, 13, 13, 17, 6, 0, 32, 7], ["Efreet Sultans", 90, 16, 14, 16, 24, 9, 0, 33, 4], ["Devils", 180, 20, 18, 30, 40, 10, 0, 34, 2]]
+const LARGE=[3, 7, 9, 10, 13, 14, 17, 18, 19, 20, 26, 27, 30, 34]
+const FLYING=[3, 10, 11, 12, 13, 17, 20, 22, 25, 33, 34]
+const UNDEAD=[4, 5, 6, 7, 11, 12, 13]
+const CONSTRUCT=[22, 23]
+const NO_RETALIATION=[12, 26, 30, 34]
+const DOUBLE_SHOT=[1, 16]
+const CHARGE=[9]
+const MAGIC_SHOT=[6, 8, 24, 27, 29]

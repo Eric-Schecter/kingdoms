@@ -1,0 +1,146 @@
+[
+  {
+    "name": "centaur-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. brown centaur with human upper body, green tunic, leather armor, spear. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: spear thrust impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "dwarf-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. short stout red-bearded dwarf in green hood and chain armor, round shield, axe. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: axe chop impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "wood-elf-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. slender cute elf archer in green cloak, pointed ears, longbow. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: bow shot impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "pegasus-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. white winged horse with emerald saddle, no rider, feathered wings. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: rearing foreleg strike impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "dendroid-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. living oak tree warrior, wooden face, branch arms, leafy canopy, root legs. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: heavy branch punch impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "unicorn-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. cream white unicorn with golden spiral horn and emerald mane, four legs. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: horn thrust impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "green-dragon-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. emerald green dragon with gold belly and bat wings, four legs, long tail. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: breathing short orange flame impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "gremlin-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. small blue-green gremlin in blue cap and tunic, carrying a sling. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: sling shot impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "gargoyle-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. gray stone gargoyle with horns, small bat wings, clawed hands and feet. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: claw swipe impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "iron-golem-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. stocky silver iron golem automaton with rivets, blue glowing eyes, huge metal fists. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: heavy fist punch impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "mage-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. elderly white-bearded wizard with blue gold robe and pointed hat, crystal staff. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: casting blue magic bolt impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "genie-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. blue-skinned turbaned genie, gold cuffs, cream vest, swirling blue smoke lower body. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: curved scimitar slash impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "naga-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. serpent woman warrior with emerald snake lower body, six arms holding curved swords, gold armor. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: multiple sword slash impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "titan-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. giant human warrior with white beard, blue gold Greek armor, sandals, holding lightning bolt. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: throwing lightning bolt impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "imp-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. small red horned imp with tiny bat wings and pointed tail, brown loincloth. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: claw swipe impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "gog-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. stocky orange horned demon with a round belly, black leather harness, holding fireball. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: throwing fireball impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "hell-hound-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. dark red muscular three-headed hell hound, glowing orange eyes, black spiked collar. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: three heads biting forward impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "demon-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. large stocky red horned demon with hooves, dark iron shoulder armor. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: heavy fist punch impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "pit-fiend-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. tall red horned demon with black armor, hooves, long fiery whip. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: whip lash impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "efreet-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. red-skinned efreet with gold turban and cuffs, flame lower body instead of legs, curved scimitar. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: flaming scimitar slash impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "devil-sheet",
+    "prompt": "A polished 3x3 sprite animation sheet in the same cute flat storybook ink watercolor style as reference. tall crimson devil with curved horns, black cape and dark armor, long spear-like trident. Nine distinct full-body drawings in EXACT equal 3 columns x 3 rows cells, large clean transparent gutters, no overlap across cells, consistent size anatomy costume and baseline, all face RIGHT. Row 1: idle, walking stride A, passing step A. Row 2: walking stride B, passing step B, attack anticipation. Row 3: trident thrust impact, attack recovery, hurt recoil. For winged creatures replace the four walking poses with distinct flight wing positions: high up, diagonal up, horizontal, downstroke. Keep creature legs tucked during flight. No labels, text, numbers, grid, floor, shadow, checkerboard. True transparent background. Dark brown thin outlines, muted colors, two tone shadows, hand painted paper texture inside character only. Square canvas.",
+    "ref": "griffin-sheet.png",
+    "alpha": true
+  },
+  {
+    "name": "rampart-town",
+    "prompt": "Standalone town illustration, identical flat hand ink watercolor storybook style to reference. lush ancient forest elven town: emerald-roofed tree houses, elegant wooden halls and arched bridges, sacred grove, waterfall, green and gold banners, an organic forest citadel. Elevated three quarter town overview with large citadel above and varied town streets below, warm brown outlines, muted colors, rich legible silhouettes. No soldiers, creatures, portraits, text, UI, borders. Landscape 4:3. Town fills canvas.",
+    "ref": "castle-town.png",
+    "alpha": false
+  },
+  {
+    "name": "tower-town",
+    "prompt": "Standalone town illustration, identical flat hand ink watercolor storybook style to reference. snowy mountain wizard town: ivory and pale blue towers with gold domes, arcane observatory, grand library, stone golem workshops, magical blue crystals, snow terraces and bridges. Elevated three quarter town overview with large citadel above and varied town streets below, warm brown outlines, muted colors, rich legible silhouettes. No soldiers, creatures, portraits, text, UI, borders. Landscape 4:3. Town fills canvas.",
+    "ref": "castle-town.png",
+    "alpha": false
+  },
+  {
+    "name": "inferno-town",
+    "prompt": "Standalone town illustration, identical flat hand ink watercolor storybook style to reference. fantasy infernal volcanic town: dark basalt spiked citadel, red roofs, orange glowing lava channels confined between buildings, iron gates, obsidian towers and bridges, ember sky, charming spooky rather than horrific. Elevated three quarter town overview with large citadel above and varied town streets below, warm brown outlines, muted colors, rich legible silhouettes. No soldiers, creatures, portraits, text, UI, borders. Landscape 4:3. Town fills canvas.",
+    "ref": "castle-town.png",
+    "alpha": false
+  }
+]

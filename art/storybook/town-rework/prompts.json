@@ -1,0 +1,27 @@
+{
+  "tool": "built-in imagegen",
+  "base": "Use case: illustration-story. Create a finished landscape 1600x1000 fantasy game faction-selection card illustration. Inspired by the strong faction identity of Heroes of Might and Magic III towns, reinterpreted in warm hand-painted 2D storybook ink and gouache. This is seen at ONLY 316x196 pixels: extremely clear thumbnail readability, one dominant architectural landmark filling central 60% width and 70% height, broad simple color shapes, quiet sky covering upper quarter, limited clean ink outlines, gently painted shadows, sparse detail. Three depth layers only, eye-level three-quarter view. Keep landmark entirely within central 85% image with breathing room above highest point. No border, no words, no UI, no units, no people, no collage. Avoid busy panoramic city, tiny houses, tiled textures, numerous flowers, stippling, photorealism and 3D render. ",
+  "specs": [
+    [
+      "castle",
+      "A massive medieval grey ivory stone fortress with square crenellated towers and prominent cobalt blue banners, a single broad arched gate, warm grassy hill, pale blue open sky. Heroic human kingdom. A tiny subordinate chapel on one side only. Avoid orange roof village."
+    ],
+    [
+      "necropolis",
+      "One ominous tall black-grey gothic mausoleum citadel, angular spires and a pointed obelisk, on barren charcoal rock, sparse gravestones in foreground and one leafless tree. Smoky grey lavender sky, restrained sickly green window glow. Undead necropolis, NOT a pretty purple fairy palace. No lush flowers."
+    ],
+    [
+      "rampart",
+      "One distinctive tiered green-roofed timber elven hall with elegantly upturned roofs on a forest cliff, surrounded by broad deep green ancient tree silhouettes, one clear waterfall flowing beside it into a quiet pool. Peaceful woodland sanctuary, moss and warm wooden walls. NOT a gold stone castle or dense treehouse city."
+    ],
+    [
+      "tower",
+      "One commanding tall ivory wizard tower with a rich cobalt blue dome and small gold finial, two shorter subordinate blue-domed wings, perched on a snowy rocky mountain ledge. Vast pale icy blue sky and simple far mountain silhouettes. Arcane alpine city. One glowing blue crystal by entrance, no village or dozens of towers."
+    ],
+    [
+      "inferno",
+      "One black basalt demonic fortress with a broad horned central tower and two subordinate jagged spires, a glowing orange portal, rising on a volcanic rock island. One broad lava channel winds toward foreground. Smoky deep brick-red sky, restrained ember orange highlights, dramatic simple silhouette. No dense buildings, no crowded flame texture."
+    ]
+  ],
+  "reference": "Heroes III town screenshots; faction silhouette and environment, original new compositions"
+}

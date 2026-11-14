@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b42et08v7grwl"
+path="res://.godot/imported/magic1.wav-758dc1b0b43f9bb998040a05fdb474b6.sample"
+
+[deps]
+
+source_file="res://assets/audio/sources/rpg/RPG Sound Pack/battle/magic1.wav"
+dest_files=["res://.godot/imported/magic1.wav-758dc1b0b43f9bb998040a05fdb474b6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,20 @@
+config_version=5
+
+[application]
+config/name="Kingdoms • The Last Stand"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1440
+window/size/viewport_height=872
+window/size/window_width_override=1296
+window/size/window_height_override=785
+window/stretch/mode="canvas_items"
+window/stretch/aspect.web="ignore"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[environment]
+defaults/default_clear_color=Color(0.035, 0.043, 0.055, 1)
